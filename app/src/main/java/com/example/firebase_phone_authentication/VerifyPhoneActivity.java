@@ -38,7 +38,6 @@ public class VerifyPhoneActivity extends AppCompatActivity {
 
         progressBar = findViewById(R.id.progressbar);
         editText = findViewById(R.id.editTextCode);
-
         Button sign_btn = findViewById(R.id.buttonSignIn);
 
         String phoneNumber = getIntent().getStringExtra("phonenumber");
