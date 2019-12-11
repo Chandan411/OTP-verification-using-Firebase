@@ -53,7 +53,6 @@ public class VerifyPhoneActivity extends AppCompatActivity {
                     editText.requestFocus();
                     return;
                 }
-
                 verifyCode(code);
 
             }
